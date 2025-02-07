@@ -14,7 +14,7 @@ SpringCity is a **robust shipment management system** designed for efficiency, s
 - [License](#license)
 
 
-## 📸 Overview
+##  Overview
 ### **Admin Homepage**
 - **User Management** – View and manage users.
 - **Premium User Verification** – Check contract signing status.
