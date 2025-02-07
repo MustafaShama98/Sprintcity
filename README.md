@@ -26,16 +26,15 @@ SpringCity is a shipment management system built with Node.js, React, and Postgr
 
 ## Technology Stack
 - **Backend:** Node.js, Express, PostgreSQL
-- **Frontend:** React, Redux
+- **Frontend:** React, Redux, MVC
 - **Authentication:** JWT, bcrypt
-- **API Integration:** Cheetah API
+- **API Integration:** [Chita-delivery's](https://chitadelivery.co.il/) API
 - **Real-Time Communication:** WebSockets
 
 ## Challenges & Future Improvements
-- **Optimizing API Calls** – Reduce redundant requests for better performance.
+- **Optimizing API Calls** – Reduce redundant requests for better performance using REDUX for caching.
 - **Improved Analytics** – More detailed shipment analytics and reporting.
 - **Mobile App Support** – Extend features to mobile platforms.
-- **AI-Powered Route Optimization** – Enhance delivery efficiency using AI.
 
 
 ## License
