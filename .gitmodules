@@ -1,0 +1,6 @@
+[submodule "Sprintcity-Backend"]
+	path = Sprintcity-Backend
+	url = https://github.com/MustafaShama98/Sprintcity-Backend
+[submodule "Frontend-Sprintcity"]
+	path = Frontend-Sprintcity
+	url = https://github.com/MustafaShama98/Frontend-Sprintcity
