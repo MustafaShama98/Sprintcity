@@ -6,15 +6,15 @@
 SpringCity is a **robust shipment management system** designed for efficiency, scalability, and ease of use. Built with **Node.js, React, and PostgreSQL**, it integrates **Cheetah’s API** for seamless shipping operations. The system follows **SOLID principles and MVC architecture**, ensuring long-term maintainability and performance optimization.
 
 ## 📖 Table of Contents
-- [Overview](#overview)
-- [Features](#🚀features)
-- [Usage](#usage)
-- [Technology Stack](#technology-stack)
-- [Challenges & Future Improvements](#challenges--future-improvements)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Usage](#-usage)
+- [Technology Stack](#-technology-stack)
+- [Challenges & Future Improvements](#-challenges--future-improvements)
+- [License](#-license)
 
 
-##  Overview
+## 📸 Overview
 ### **Admin Homepage**
 - **User Management** – View and manage users.
 - **Premium User Verification** – Check contract signing status.
