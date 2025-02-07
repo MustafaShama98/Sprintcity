@@ -6,44 +6,15 @@
 SpringCity is a **robust shipment management system** designed for efficiency, scalability, and ease of use. Built with **Node.js, React, and PostgreSQL**, it integrates **Cheetah’s API** for seamless shipping operations. The system follows **SOLID principles and MVC architecture**, ensuring long-term maintainability and performance optimization.
 
 ## 📖 Table of Contents
+- [Overview](#overview)
 - [Features](#features)
 - [Usage](#usage)
-- [Images](#images)
 - [Technology Stack](#technology-stack)
 - [Challenges & Future Improvements](#challenges--future-improvements)
 - [License](#license)
 
-## 🚀 Features
-- **Full Shipping Lifecycle Management** – Create, track, and update shipments in real time.
-- **API Integration** – Seamless connectivity with **Cheetah’s API** for automated shipment processing.
-- **Role-Based Access Control (RBAC)** – Secure user access levels for **admins, shippers, and customers**.
-- **Real-Time Shipment Tracking** – Live shipment updates using **WebSockets**.
-- **Automated Notifications** – Email & SMS alerts for shipment status changes.
-- **Admin Dashboard** – Intuitive UI for managing users, shipments, and analytics.
-- **Multi-Shipment Cart System** – Order multiple shipments with unique details in a single transaction.
-- **Auto-Complete Address Input** – Google Maps API integration for **real-time location suggestions**.
-- **Advanced Filtering & Sorting** – Sort shipments by date, status, and user preferences.
-- **Optimized Performance with Caching** – Utilizes **Redis caching** to reduce API calls and enhance speed.
-  To enhance performance and reduce database load:
-   **Frequent API Calls** – Stores shipment tracking data to prevent redundant requests.
-   **User Dashboard Data** – Caches shipment lists for faster page loads.
-## 🔧 Usage
-- **Admins**: Manage shipments, users, and API settings.
-- **Users**: Create and track shipments through the dashboard.
-- **Automated Updates**: The system **synchronizes shipment status** and sends notifications.
-- **Bulk Shipment Processing**: Users can process multiple shipments efficiently via the cart system.
 
-## 🛠 Technology Stack
-- **Backend:** Node.js, Express, PostgreSQL
-- **Frontend:** React, Redux, MVC
-- **Authentication:** JWT, bcrypt
-- **API Integration:** [Cheetah-Delivery](https://chitadelivery.co.il/) API
-- **Real-Time Communication:** WebSockets
-- **Caching:** Redis for **optimized API performance**
-
-
-
-## 📸 Images
+## 📸 Overview
 ### **Admin Homepage**
 - **User Management** – View and manage users.
 - **Premium User Verification** – Check contract signing status.
@@ -74,6 +45,34 @@ SpringCity is a **robust shipment management system** designed for efficiency, s
 ### **Mobile Homepage**
 - **Responsive UI for mobile clients**
 ![Mobile Homepage](https://github.com/user-attachments/assets/1e4c1b37-7fc8-4032-98d4-d765e6cabc86)
+
+## 🚀 Features
+- **Full Shipping Lifecycle Management** – Create, track, and update shipments in real time.
+- **API Integration** – Seamless connectivity with **Cheetah’s API** for automated shipment processing.
+- **Role-Based Access Control (RBAC)** – Secure user access levels for **admins, shippers, and customers**.
+- **Real-Time Shipment Tracking** – Live shipment updates using **WebSockets**.
+- **Automated Notifications** – Email & SMS alerts for shipment status changes.
+- **Admin Dashboard** – Intuitive UI for managing users, shipments, and analytics.
+- **Multi-Shipment Cart System** – Order multiple shipments with unique details in a single transaction.
+- **Auto-Complete Address Input** – Google Maps API integration for **real-time location suggestions**.
+- **Advanced Filtering & Sorting** – Sort shipments by date, status, and user preferences.
+- **Optimized Performance with Caching** – Utilizes **Redis caching** to reduce API calls and enhance speed.
+  To enhance performance and reduce database load:
+   **Frequent API Calls** – Stores shipment tracking data to prevent redundant requests.
+   **User Dashboard Data** – Caches shipment lists for faster page loads.
+## 🔧 Usage
+- **Admins**: Manage shipments, users, and API settings.
+- **Users**: Create and track shipments through the dashboard.
+- **Automated Updates**: The system **synchronizes shipment status** and sends notifications.
+- **Bulk Shipment Processing**: Users can process multiple shipments efficiently via the cart system.
+
+## 🛠 Technology Stack
+- **Backend:** Node.js, Express, PostgreSQL
+- **Frontend:** React, Redux, MVC
+- **Authentication:** JWT, bcrypt
+- **API Integration:** [Cheetah-Delivery](https://chitadelivery.co.il/) API
+- **Real-Time Communication:** WebSockets
+- **Caching:** Redis for **optimized API performance**
 
 ## 🔍 Challenges & Future Improvements
 - **Optimizing API Calls** – Further caching improvements using **Redux & Redis**.
